@@ -1,0 +1,84 @@
+/* This is used to specifiy font taken: font-family: 'Lato', sans-serif; */
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+
+}
+
+header {
+    font-size: 26px;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+ul#navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: slategrey;
+}
+
+ul#navmenu li {
+    display: inline;
+}
+ul#navmenu li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px 80px;
+}
+
+ul#navmenu li a:hover {
+    background-color: rgb(69, 86, 102);
+}
+
+article {
+    margin: 20px;
+    padding: 0 20px 20px 20px;
+    border: 50px rgb(102, 69, 100);
+
+}
+
+@media only screen and (min-width: 768px){
+    .equation {
+        font-size: 1em
+    }
+    .submit {
+        font-size: 1em;
+    }
+    .inputfield{
+        font-size: 1em;
+        width: 2.5em;
+    }
+}
+
+.equation {
+    font-size: 2em;
+}
+.submit {
+    font-size: 2em;
+}
+.inputfield{
+
+    font-size: 2em;
+    width: 2.5em;
+}
+
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
+}
+
